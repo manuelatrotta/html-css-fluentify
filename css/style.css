@@ -66,7 +66,7 @@ font-size: 12px;
 }
 .buttongreen{
   text-decoration: none;
-  padding: 20px;
+  padding: 12px;
   display: inline-block;
   border-radius:5px;
   background-color: #7cbb02;
@@ -74,4 +74,14 @@ font-size: 12px;
   text-transform: uppercase;
   line-height: 22px;
   margin-top: 10px;
+}
+.buttonwhite{
+  padding: 10px 30px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius:5px;
+  background-color: #0c325a;
+  color: white;
+  text-transform: uppercase;
+  line-height: 22px;
 }
