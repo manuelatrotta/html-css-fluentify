@@ -33,3 +33,9 @@ body{
 .nav-right{
   float: right;
 }
+.list{
+  list-style: none;
+}
+.list li{
+
+}
