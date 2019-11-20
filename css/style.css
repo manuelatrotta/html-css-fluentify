@@ -16,3 +16,19 @@ body{
   background-repeat: no-repeat;
   background-position: 110% 110%;
 }
+.header-nav{
+  width: 85%;
+  height: 80px;
+  line-height: 80px;
+}
+.header-nav::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.nav-left{
+  float: left;
+}
+.nav-right{
+  float: right;
+}
