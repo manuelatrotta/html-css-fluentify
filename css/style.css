@@ -108,13 +108,13 @@ body{
   color: #a2a2a2;
   font-size: 16px;
 }
-.page-main{
+.top-main{
   width: 100%;
   height: 300px;
   margin: 10px 20px;
   padding: 5%;
 }
-.page-main::after{
+.top-main::after{
   content:"";
   display: table;
   clear: both;
@@ -139,4 +139,27 @@ body{
   color: #808080;
   font-size: 16px;
 }
-hr{
+.bottom.main{
+  width: 100%;
+  height: 300px;
+  padding: 10%
+}
+.main-bottom::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.bottom{
+  display: inline-block;
+  width: 100%;
+}
+.left{
+  float: left;
+}
+.left img{
+  width: 300px;
+  height: 300px;
+}
+.right{
+  float: right;
+}
