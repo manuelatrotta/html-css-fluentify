@@ -15,6 +15,7 @@ body{
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: 110% 110%;
+  color: #fff;
 }
 .header-nav{
   width: 85%;
@@ -37,16 +38,40 @@ body{
   list-style: none;
 }
 .list li{
-  display: inline;
   margin: 0 10px;
+  display: inline;
 }
 .list li:first-child{
   padding-left: 0;
 }
 .list a{
-display: inline;
 text-decoration: none;
 color: #fff;
 text-transform: uppercase;
 font-size: 12px;
+}
+.bannerone{
+  width: 85%;
+  height: 370px;
+  margin: 0 auto;
+  position: relative;
+}
+.text-bannerone{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 50%;
+  margin-bottom: 30px;
+}
+.buttongreen{
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  border-radius:5px;
+  background-color: #7cbb02;
+  color: white;
+  text-transform: uppercase;
+  line-height: 22px;
+  margin-top: 10px;
 }
