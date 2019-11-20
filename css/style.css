@@ -119,6 +119,9 @@ body{
   display: table;
   clear: both;
 }
+.center img{
+  height: 220px;
+}
 .col{
   display: inline-block;
   float: left;
